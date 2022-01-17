@@ -1,0 +1,40 @@
+img {
+  filter: grayscale(0.2);
+}
+
+#header {
+  background: linear-gradient(135deg, hsl(0, 5%, 34%), hsl(0, 1%, 69%));
+}
+
+#sidenav ul li a:hover {
+  background-color: hsl(0, 1%, 69%);
+}
+
+#content #titulo {
+  color: hsl(0, 5%, 34%);
+}
+
+#content #characteristics > div {
+  background: linear-gradient(135deg, hsl(0, 5%, 34%), hsl(0, 1%, 69%));
+}
+
+#content #characteristics > div span {
+  color: hsl(0, 1%, 69%);
+}
+
+#content #italic {
+  color: hsl(0, 1%, 69%);
+}
+
+#content #quote,
+#content #attributes {
+  background: linear-gradient(135deg, hsl(0, 5%, 34%), hsl(0, 1%, 69%));
+}
+
+#content #attributes li + li {
+  border-top: 0.2rem solid hsl(0, 1%, 69%);
+}
+
+#footer {
+  background: linear-gradient(135deg, hsl(0, 5%, 34%), hsl(0, 1%, 69%));
+}
