@@ -1,0 +1,36 @@
+#header {
+  background: linear-gradient(135deg, hsl(7, 83%, 60%), hsl(7, 94%, 74%));
+}
+
+#sidenav ul li a:hover {
+  background-color: hsl(7, 94%, 74%);
+}
+
+#content #titulo {
+  color: hsl(7, 83%, 60%);
+}
+
+#content #characteristics > div {
+  background: linear-gradient(135deg, hsl(7, 83%, 60%), hsl(7, 94%, 74%));
+}
+
+#content #characteristics > div span {
+  color: hsl(7, 83%, 72%);
+}
+
+#content #italic {
+  color: hsl(7, 94%, 74%);
+}
+
+#content #quote,
+#content #attributes {
+  background: linear-gradient(135deg, hsl(7, 83%, 60%), hsl(7, 94%, 74%));
+}
+
+#content #attributes li + li {
+  border-top: 0.2rem solid hsl(7, 94%, 74%);
+}
+
+#footer {
+  background: linear-gradient(135deg, hsl(7, 83%, 60%), hsl(7, 94%, 74%));
+}
