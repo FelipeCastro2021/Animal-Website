@@ -7,7 +7,6 @@
 <p align="center">
   <a href="#-projeto"> Projeto </a> &nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#-tecnologias"> Tecnologias </a> &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#-layout"> Layout </a> 
 </p>
 
 <p align="center">
@@ -16,9 +15,7 @@
 
 ## 💻 Projeto
 
-<Esse projeto> é um website front end e mobile, responsiva. Contém as seguintes seções: Header, Navigation, Home, Sobre, Serviços, Depoimentos, Contato e Footer.
-  
-O website consiste na informação sobre o tema de fisiculturismo, apresentando seu tipo genético e celebridades do meio.
+Animal Website é um site responsivo com utilização de Grid Layout, abordando conhecimentos sobre espécies de alguns animais.
   
 ## 🚀 Tecnologias
 
@@ -35,14 +32,9 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 ### Utilitários
 - [Icons8](https://icons8.com)
 - [IconFinder](https://www.iconfinder.com/)
-= [Figma](https://www.figma.com/)
-  
-## 👨‍🎨 Layout
-
-Caso queira ver o layout completo do projeto, acesse [esse link](https://www.figma.com/file/GlrgSA9PhPvaH08tdeBrBO/Projetos-autorais?node-id=0%3A1)
 
 ---
 
-Feito por Felipe Castro Ferreira 👦🏻 👋🏻 [Venha conferir meu portfólio](https://github.com/FelipeCastro2021?tab=repositories)
+Feito por Felipe Castro Ferreira 👦🏻 👋🏻 [Venha conferir meu portfólio](https://github.com/FelipeCastro2021?tab=repositories) - Orientação: [Origamid](https://www.origamid.com/)
   
 [Acesse meu Linkedin](https://www.linkedin.com/in/felipe-castro-ferreira/)
