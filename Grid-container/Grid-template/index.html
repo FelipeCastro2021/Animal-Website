@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid-template-areas</title>
+
+    <!-- Estilizações -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Grid-template: 100px 50px / repeat(3, 1fr);</h1>
+    <div class="grid template1">
+      <div class="item logo">Logo</div>
+      <div class="item nav">Nav</div>
+      <div class="item content">Content</div>
+      <div class="item sidenav">SideNav</div>
+      <div class="item advert">Advert</div>
+      <div class="item footer">Footer</div>
+    </div>
+
+    <h1>
+      Grid-template: "logo logo nav" "sidenav content content" "sidenav advert
+      footer";
+    </h1>
+    <div class="grid template2">
+      <div class="item logo">Logo</div>
+      <div class="item nav">Nav</div>
+      <div class="item content">Content</div>
+      <div class="item sidenav">SideNav</div>
+      <div class="item advert">Advert</div>
+      <div class="item footer">Footer</div>
+    </div>
+
+    <h1>
+      Grid-template: ""logo nav nav" "sidenav content content" "sidenav advert
+      advert" "footer footer footer";
+    </h1>
+    <div class="grid templateAreasColumnsRows">
+      <div class="item logo">Logo</div>
+      <div class="item nav">Nav</div>
+      <div class="item content">Content</div>
+      <div class="item sidenav">SideNav</div>
+      <div class="item advert">Advert</div>
+      <div class="item footer">Footer</div>
+    </div>
+  </body>
+</html>

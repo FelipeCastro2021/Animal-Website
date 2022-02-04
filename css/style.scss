@@ -115,6 +115,7 @@ img {
   position: fixed;
 
   border-radius: 20px;
+  z-index: 2;
 
   i {
     font-size: 2.5rem;
@@ -154,6 +155,10 @@ img {
 #anuncios.dark,
 #sidenav.dark {
   background-color: #252525;
+}
+
+#header nav ul li a.dark {
+  color: #121212;
 }
 
 #wrapper,
@@ -321,6 +326,10 @@ p.paragraphs.dark,
 @media (max-width: 600px) {
   main#content {
     grid-template-columns: 1fr;
+  }
+
+  #wrapper #content #italic {
+    max-width: 100%;
   }
 }
 

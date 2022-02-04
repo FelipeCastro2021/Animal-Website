@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid-template-columns</title>
+
+    <!-- Estilizações -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Grid-template-columns: 100px 100px 100px 100px;</h1>
+    <div class="grid templateColumns4">
+      <div class="item">Teste</div>
+      <div class="item">Teste2</div>
+      <div class="item">Teste3</div>
+      <div class="item">Teste4</div>
+    </div>
+
+    <h1>
+      Grid-template-columns: 100px 100px 100px 100px;
+      <em>Valores estourados</em>
+    </h1>
+    <div class="grid templateColumns4">
+      <div class="item">TesteFalaPessoal</div>
+      <div class="item">Teste2</div>
+      <div class="item">Teste3</div>
+      <div class="item">Teste4</div>
+    </div>
+
+    <h1>Grid-template-columns: 1fr 2fr;</h1>
+    <div class="grid templateFR">
+      <div class="item">Teste1</div>
+      <div class="item">Teste2</div>
+      <div class="item">Teste3</div>
+      <div class="item">Teste4</div>
+    </div>
+
+    <h1>Grid-template-columns: 1fr 2fr; <em>Valores estourados</em></h1>
+    <div class="grid templateFR">
+      <div class="item">TesteFalaPessoalTorcidaGrêmmio</div>
+      <div class="item">Teste2</div>
+      <div class="item">Teste3</div>
+      <div class="item">Teste4</div>
+    </div>
+
+    <h1>Grid-template-columns: minmax(200px, 1fr) 1fr 1fr;</h1>
+    <div class="grid templateMinMax">
+      <div class="item">TesteFalaPessoalTorcidaGrêmmio</div>
+      <div class="item">Teste2</div>
+      <div class="item">Teste3</div>
+      <div class="item">Teste4</div>
+    </div>
+
+    <h1>
+      Grid-template-columns: minmax(200px, 1fr) 1fr 1fr;
+      <em>Valores estourados</em>
+    </h1>
+    <div class="grid templateMinMax">
+      <div class="item">TesteFalaPessoalTorcidaGrêmmio</div>
+      <div class="item">Teste2</div>
+      <div class="item">Teste3</div>
+      <div class="item">Teste4</div>
+    </div>
+
+    <h1>Grid-template-columns: repeat(auto-fit, 100px);</h1>
+    <div class="grid templateAutoFit">
+      <div class="item">TesteFalaPessoalTorcidaGrêmmio</div>
+      <div class="item">Teste2</div>
+      <div class="item">Teste3</div>
+      <div class="item">Teste4</div>
+    </div>
+
+    <h1>Grid-template-columns: repeat(auto-fill, 100px);</h1>
+    <div class="grid templateAutoFill">
+      <div class="item">TesteFalaPessoalTorcidaGrêmmio</div>
+      <div class="item">Teste2</div>
+      <div class="item">Teste3</div>
+      <div class="item">Teste4</div>
+    </div>
+  </body>
+</html>

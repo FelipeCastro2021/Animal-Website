@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+h1 {
+  text-align: center;
+  margin: 1rem 0;
+  font-size: 2rem;
+}
+
+.grid {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+
+  border: 2px solid lightgray;
+}
+
+.item {
+  background-color: tomato;
+  margin: .3rem .2rem;
+
+  font-weight: bold;
+  color: white;
+}
+
+.grid {
+  display: grid;
+}
+
+.logo {
+	grid-area: logo;
+}
+
+.nav {
+	grid-area: nav;
+}
+
+.content {
+	grid-area: content;
+}
+
+.sidenav {
+	grid-area: sidenav;
+}
+
+.advert {
+	grid-area: advert;
+}
+
+.footer {
+	grid-area: footer;
+}
+
+.template1 {
+  grid-template: 100px 50px / repeat(3, 1fr);
+}
+
+.template2 {
+	grid-template:
+		"logo nav nav" 50px
+		"sidenav content advert" 150px
+		"sidenav footer footer" 100px
+		/ 100px 1fr 50px;
+}

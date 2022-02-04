@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid-template-areas</title>
+
+    <!-- Estilizações -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Justify-items: start;</h1>
+    <div class="grid start">
+      <div class="item logo">Logo</div>
+      <div class="item nav">Nav</div>
+      <div class="item content">Content</div>
+      <div class="item sidenav">SideNav</div>
+      <div class="item advert">Advert</div>
+      <div class="item footer">Footer</div>
+    </div>
+
+    <h1>Justify-items: end;</h1>
+    <div class="grid end">
+      <div class="item logo">Logo</div>
+      <div class="item nav">Nav</div>
+      <div class="item content">Content</div>
+      <div class="item sidenav">SideNav</div>
+      <div class="item advert">Advert</div>
+      <div class="item advert">Footer</div>
+    </div>
+
+    <h1>Justify-items: stretch;</h1>
+    <div class="grid stretch">
+      <div class="item logo">1</div>
+      <div class="item item-2 nav">2</div>
+      <div class="item content">3</div>
+      <div class="item item-2 sidenav">4</div>
+      <div class="item advert">5</div>
+      <div class="item item-3 advert">6</div>
+    </div>
+  </body>
+</html>
