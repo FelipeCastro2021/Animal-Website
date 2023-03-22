@@ -10,7 +10,8 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/FelipeCastro2021/Animal-Website/blob/main/img/banned/banned.png" width="100%" alt="Animal Website" title="Banner" />
+  <img src="https://github.com/FelipeCastro2021/Animal-Website/blob/main/Animal%20Dark.png" width="100%" alt="Animal Website Dark" title="Banner" />
+  <img src="https://github.com/FelipeCastro2021/Animal-Website/blob/main/Animal.png" width="100%" alt="Animal Website" title="Banner" />
 </p>
 
 ## 💻 Projeto
@@ -23,12 +24,16 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 ### Front end
 - HTML
-- CSS
-- Javascript
+- CSS (Grid Layout)
+- Figma
+
 ### Implantação em produção
-- Front end web: Netlify
+- Front-end web: Github Pages
+
 ### Bibliotecas
 - [Google Fonts](https://fonts.google.com/)
+- [FontAwesome](https://fontawesome.com/)
+
 ### Utilitários
 - [Icons8](https://icons8.com)
 - [IconFinder](https://www.iconfinder.com/)
