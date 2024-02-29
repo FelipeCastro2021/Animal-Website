@@ -118,12 +118,12 @@ img {
   z-index: 2;
 
   i {
-    font-size: 2.5rem;
+    font-size: 2rem;
 
     cursor: pointer;
   }
 
-  i:first-child {
+  #light {
     color: white;
 
     background-color: rgb(237, 159, 15);
@@ -136,7 +136,7 @@ img {
     }
   }
 
-  i:last-child {
+  #dark {
     color: rgb(182, 116, 214);
 
     padding: 0.5rem 1.5rem;
@@ -154,7 +154,7 @@ img {
 #wrapper.dark,
 #anuncios.dark,
 #sidenav.dark {
-  background-color: #252525;
+  background-color: #080808;
 }
 
 #header nav ul li a.dark {
